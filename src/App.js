@@ -5,6 +5,7 @@ import CreateElection from "./components/CreateElection";
 import Vote from "./components/Vote";
 import Results from "./components/Results";
 import abi from "./contracts/Voting.json";
+import './styles.css';
 
 function App() {
   const [contract, setContract] = useState(null);

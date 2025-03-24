@@ -1,0 +1,49 @@
+/* Estilos Gerais */
+body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #1f1f1f !important;
+    border-bottom: 2px solid #333;
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #ffffff !important;
+  }
+  
+  .nav-link:hover {
+    color: #00bcd4 !important;
+  }
+  
+  /* Botões */
+  .btn-custom {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom:hover {
+    background-color: #008ba3;
+  }
+  
+  /* Cartões */
+  .card {
+    background-color: #222;
+    color: #ffffff;
+    border: 1px solid #333;
+  }
+  
+  /* Inputs */
+  .form-control {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #444;
+  }
+  
+  .form-control:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px #00bcd4;
+  }  
